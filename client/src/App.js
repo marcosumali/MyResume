@@ -3,7 +3,6 @@ import { Route, Switch } from 'react-router-dom';
 
 import './App.css';
 import HomePage from './pages/Home';
-import NavPage from './pages/NavBar';
 import ExperiencePage from './pages/Exp';
 import EducationPage from './pages/Edu';
 import AwardsPage from './pages/Awards';
@@ -15,7 +14,7 @@ function App() {
       <Switch>
         <Route
           exact path="/" 
-          render={ (props) => (<NavPage {...props} />) } 
+          render={ (props) => (<HomePage {...props} />) } 
         />
         <Route
           exact path="/experience" 

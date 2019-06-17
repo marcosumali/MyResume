@@ -1,0 +1,99 @@
+/* ------------------------ Header ------------------------ */
+#HomeHeader {
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/mbb-resume.appspot.com/o/image%2Fheader-min.png?alt=media&token=67dba631-dabf-485a-af43-3084efb1beaf");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;  
+  height: 100vh;
+}
+
+.Linkedin-mas-box {
+  margin-top: 20px;
+}
+
+.Linkedin-mas {
+  height: 80vh;
+}
+
+.Linkedin-logo {
+  display: none;
+}
+
+@media only screen and (max-width: 992px) {
+  .Linkedin-mas {
+    display: none;
+  }
+
+  .Linkedin-logo {
+    display: block;
+    height: 40px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .Linkedin-mas {
+    display: none;
+  }
+
+  .Linkedin-logo {
+    display: block;
+    height: 40px;
+  }
+}
+
+
+/* ------------------------ Section ------------------------ */
+#Section {
+  min-height: 80vh;
+}
+
+.Section-box {
+  padding-left: 15vw !important;
+  padding-right: 15vw !important;
+  margin-top: 80px !important;
+  margin-bottom: 80px !important;
+}
+
+.Card-image {
+  width: 100%;
+  min-height: 250px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .Section-box {
+    padding-left: 10vw !important;
+    padding-right: 10vw !important;
+  }
+
+  .Card-image {
+    min-height: 200px;
+  }
+  
+}
+
+@media only screen and (max-width: 768px) {
+  .Card-image {
+    min-height: 120px;
+  }
+
+  .Section-box {
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .Section-box {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+}
+
+
+/* ------------------------ Footer ------------------------ */
+.Footer {
+  height: 10vh;
+  padding: 0 5%;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
