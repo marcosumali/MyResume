@@ -52,12 +52,12 @@ const BtnWhite = styled.div`
   ${media.tablet`
     width: 110px;
     line-height: 40px;
-    margin: 0 5% 0 7.5%;
+    margin: 0px 5% 0px 0px;
   `}
   ${media.phone`
     width: 90px;
     line-height: 40px;
-    margin: 0 5% 0 5%;
+    margin: 0px 5% 0px 0px;
   `}
 `
 const BtnTextGradient = styled.div`
@@ -113,7 +113,7 @@ export default class Header extends Component {
               <SubTitle>Welcome To My Personal Website</SubTitle>
             </div>
             <div className="col s12 No-padding Container-nowrap-center-cross" style={{ marginBottom: '30px'}}>
-              <a href="#Section" style={{ margin: '0 0 0 7.5%' }}>
+              <a href="#Section" className="BtnWhite">
                 <BtnWhite>
                   <BtnTextGradient>Learn More</BtnTextGradient>
                 </BtnWhite>

@@ -1,9 +1,10 @@
 import { css } from "styled-components";
 
 const sizes = {
-  desktop: 2000,
-  tablet: 1200,
-  phone: 600
+  extraLarge: 2000,
+  large: 1200,
+  medium: 992,
+  small: 600,
 };
 
 // Iterate through the sizes and create a media template

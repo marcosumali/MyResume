@@ -19,6 +19,10 @@
   display: none;
 }
 
+.BtnWhite {
+  margin: 0 0% 0 7.5%
+}
+
 @media only screen and (max-width: 992px) {
   .Linkedin-mas {
     display: none;
@@ -27,6 +31,10 @@
   .Linkedin-logo {
     display: block;
     height: 40px;
+  }
+
+  .BtnWhite {
+    margin: 0 5% 0 7.5%
   }
 }
 
@@ -38,6 +46,10 @@
   .Linkedin-logo {
     display: block;
     height: 40px;
+  }
+
+  .BtnWhite {
+    margin: 0 5% 0 5%
   }
 }
 
