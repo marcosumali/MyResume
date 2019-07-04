@@ -10,7 +10,7 @@ export default class Home extends Component {
       <div>
         <HomeHeaderCom />
         <SectionCom />
-        <FooterCom />
+        <FooterCom parent={ this.props }/>
       </div>
     )
   }

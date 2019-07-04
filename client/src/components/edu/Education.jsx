@@ -127,12 +127,10 @@ export default class Education extends Component {
             </div>
             <div className="col s12 m12 l12 xl12 Powerpoint-box">
               <iframe 
+                src="https://docs.google.com/presentation/d/e/2PACX-1vTtLfbcQ7MMFQgTQ6bhDoRd5J9CnfLlDpvUu3VFfefyG1YEvC3TxHhmxHyOJl0_ttUWY_ZMIanD2F8o/embed?start=false&loop=false&delayms=10000" 
                 title="FinalProject"
                 className="Powerpoint"
-                src="https://docs.google.com/presentation/d/e/2PACX-1vTtLfbcQ7MMFQgTQ6bhDoRd5J9CnfLlDpvUu3VFfefyG1YEvC3TxHhmxHyOJl0_ttUWY_ZMIanD2F8o/embed?start=false&loop=false&delayms=3000" 
-                frameBorder="0" 
-                width="960" 
-                height="569" 
+                frameBorder="0"
                 allowFullScreen={true} 
                 mozallowfullscreen="true" 
                 webkitallowfullscreen="true"

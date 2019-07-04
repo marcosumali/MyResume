@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import { Toast } from 'react-materialize';
+import { Link } from 'react-router-dom';
 
 import media from '../media/queries';
 
@@ -29,11 +30,19 @@ const FooterTextRight = styled.div`
 
 export default class Footer extends Component {
   render() {
+    let { match } = this.props.parent
     return (
       <footer className="Footer row Container-wrap-center-cross">
         <div className="col m6 s12 Container-nowrap-center-cross">
           <FooterTextLeft>
-            <a href="#HomeHeader" style={{ color: 'black', textDecoration: 'none' }}>MBB.</a>
+            {
+              match.path === "/" ?
+              <a href="#HomeHeader" style={{ color: 'black', textDecoration: 'none' }}>MBB.</a>
+              :
+              <Link to="/">
+                <div style={{ color: 'black', textDecoration: 'none' }}>MBB.</div>
+              </Link>
+            }
           </FooterTextLeft>
           <FooterTextLeft>© 2019 MadeByBastian.co</FooterTextLeft>
         </div>
@@ -47,7 +56,6 @@ export default class Footer extends Component {
           <Toast options={{html: 'Your privacy is our concerned.'}}>
             <FooterTextRight>Privacy</FooterTextRight>
           </Toast>
-          
         </div>
       </footer>
     )
