@@ -1,0 +1,112 @@
+nav {
+  box-shadow: none;
+  background-color: transparent;
+}
+
+nav .brand-logo {
+  color: var(--white);
+  text-decoration: none;
+  font-size: 25px;
+}
+
+nav ul a {
+  color: var(--white);
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.Contact-header {
+  font-size: 32px;
+  font-weight: bold;
+  color: var(--light-blue);
+}
+
+.Contact-img-box {
+  margin-bottom: 16px;
+}
+
+.Contact-img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.Contact-name-box {
+  margin-bottom: 4px;
+}
+
+.Contact-name {
+  font-size: 32px;
+  font-weight: bold;
+  color: var(--light-blue);
+}
+
+.Soc-med-icon {
+  height: 48px;
+  width: 48px;
+  margin: 0px 8px 16px 8px;
+}
+
+.Icon-color {
+  fill: var(--black);
+}
+
+.Wa-color:hover {
+  fill: #25D366;
+}
+
+.Email-color:hover {
+  fill: #C63D2D;
+}
+
+.Linkedin-color:hover {
+  fill: #0077B5;
+}
+
+.Git-color:hover {
+  fill: #6e5494;
+}
+
+.Face-color:hover {
+  fill: #3B5998;
+}
+
+.Insta-color:hover {
+  fill: #3f729b;
+}
+
+.Twit-color:hover {
+  fill: #33CCFF;
+}
+
+@media only screen and (max-width: 600px) {
+  .Contact-img-box {
+    margin-bottom: 8px;
+  }
+  
+  .Contact-img {
+    height: 100px;
+    width: 100px;
+  }
+
+  .Contact-name {
+    font-size: 24px;
+  }
+
+  .Soc-med-icon {
+    height: 32px;
+    width: 32px;
+    margin: 0px 12px 8px 12px;
+  }
+
+  .modal .modal-content {
+    padding: 12px;
+  }
+
+}
+
+@media only screen and (min-width: 601px) {
+  nav {
+    padding: 0 5%;
+  }
+}
