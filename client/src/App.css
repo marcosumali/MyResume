@@ -84,7 +84,7 @@
 }
 
 .Container-wrap-center {
-  display: flex;
+  display: flex !important;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
@@ -103,7 +103,7 @@
 }
 
 .Container-nowrap-center {
-  display: flex;
+  display: flex !important;
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
