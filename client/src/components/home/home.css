@@ -3,7 +3,7 @@
   background-image: url("https://firebasestorage.googleapis.com/v0/b/mbb-resume.appspot.com/o/image%2Fheader-min.png?alt=media&token=67dba631-dabf-485a-af43-3084efb1beaf");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: bottom;  
+  background-position: 50% 75%;  
   height: 100vh;
 }
 
@@ -23,7 +23,27 @@
   margin: 0 0% 0 7.5%
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  #HomeHeader {
+    background-position: 25% 75%;
+  }
+
+  .Linkedin-mas {
+    display: none;
+  }
+
+  .Linkedin-logo {
+    display: block;
+    height: 40px;
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+  #HomeHeader {
+    background-position: 25% 75%;
+  }
+  
   .Linkedin-mas {
     display: none;
   }
@@ -39,6 +59,10 @@
 }
 
 @media only screen and (max-width: 600px) {
+  #HomeHeader {
+    background-position: 35% 75%;
+  }
+
   .Linkedin-mas {
     display: none;
   }
