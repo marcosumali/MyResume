@@ -7,24 +7,24 @@ import media from '../media/queries';
 
 const FooterTextLeft = styled.div`
   padding-right: 5%;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: bold;
   color: var(--black);
   ${media.tablet`
   `}
   ${media.phone`
-    font-size: 14px;
+    font-size: 12px;
   `}
 `
 
 const FooterTextRight = styled.div`
-  font-size: 20px;
+  font-size: 15px;
   font-weight: bold;
   color: var(--black);
   ${media.tablet`
   `}
   ${media.phone`
-    font-size: 14px;
+    font-size: 12px;
   `}
 `
 
@@ -44,7 +44,9 @@ export default class Footer extends Component {
               </Link>
             }
           </FooterTextLeft>
-          <FooterTextLeft>© 2019 MadeByBastian.co</FooterTextLeft>
+          <div style={{ minWidth: '200px' }}>
+            <FooterTextLeft>© 2019 MadeByBastian.co</FooterTextLeft>
+          </div>
         </div>
         <div className="col m6 s12 Container-nowrap-end">
           <FooterTextRight>

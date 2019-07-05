@@ -14,7 +14,7 @@ import media from '../media/queries1';
 
 const Paragraph = styled.div`
   color: var(--gray);
-  font-size: 20px;
+  font-size: 18px;
   text-align: justify;
   margin-top: 8px;
   margin-bottom: 16px;

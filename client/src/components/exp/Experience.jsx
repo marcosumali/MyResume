@@ -7,13 +7,13 @@ import { Toast } from 'react-materialize';
 const Place = styled.div`
   color: var(--light-blue);
   font-weight: bold;
-  font-size: 28px;
+  font-size: 22px;
   ${media.large`
-    font-size: 24px;
+    font-size: 20px;
   `}
   ${media.small`
     margin-top: 10px;
-    font-size: 18px;
+    font-size: 12px;
     text-align: center;
   `}
 `
@@ -21,20 +21,20 @@ const Place = styled.div`
 const Time = styled.div`
   color: var(--gray);
   font-weight: bold;
-  font-size: 28px;
+  font-size: 22px;
   ${media.large`
-    font-size: 24px;
+    font-size: 20px;
     color: var(--gray);
     text-align: left;
   `}
   ${media.medium`
-    font-size: 24px;
+    font-size: 20px;
     color: var(--gray);
     text-align: left;
   `}
   ${media.small`
     margin-top: 0px;
-    font-size: 18px;
+    font-size: 12px;
     text-align: center;
   `}
 `
@@ -42,16 +42,16 @@ const Time = styled.div`
 const Title = styled.div`
   color: var(--gray);
   font-weight: bold;
-  font-size: 28px;
+  font-size: 22px;
   margin-bottom: 16px;
   ${media.large`
-    font-size: 24px;
+    font-size: 20px;
   `}
   ${media.medium`
   `}
   ${media.small`
     margin-top: 0px;
-    font-size: 18px;
+    font-size: 12px;
     text-align: center;
   `}
 `
@@ -59,22 +59,22 @@ const Title = styled.div`
 const ParagraphTitle = styled.div`
   color: var(--black);
   font-weight: bold;
-  font-size: 24px;
+  font-size: 18px;
   ${media.large`
   `}
   ${media.small`
-    font-size: 18px;
+    font-size: 14px;
   `}
 `
 
 const Paragraph = styled.div`
   color: var(--black);
-  font-size: 22px;
+  font-size: 16px;
   text-align: justify;
   margin-top: 8px;
   margin-bottom: 16px;
   ${media.large`
-    font-size: 20px;
+    font-size: 16px;
   `}
   ${media.small`
     font-size: 14px;
@@ -82,7 +82,7 @@ const Paragraph = styled.div`
 `
 
 const BtnGradient = styled.div`
-  width: 300px;
+  width: 200px;
   line-height: 50px;
   border-radius: 5px;
   margin: 16px 0px 24px 0px;
@@ -96,7 +96,7 @@ const BtnGradient = styled.div`
   }
 
   ${media.medium`
-    width: 160px;
+    width: 120px;
     line-height: 35px;
   `}
   ${media.small`
@@ -104,7 +104,7 @@ const BtnGradient = styled.div`
 `
 
 const BtnBlue = styled.div`
-  width: 300px;
+  width: 200px;
   line-height: 50px;
   border-radius: 5px;
   margin: 16px 0px 24px 16px;
@@ -121,14 +121,15 @@ const BtnBlue = styled.div`
   `}
 `
 const BtnText = styled.div`
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 700;
   text-align: center;
   color: var(--white);
   ${media.medium`
     font-size: 12px;
-  `}
-  ${media.small`
+    `}
+    ${media.small`
+    font-size: 12px;
   `}
 `
 

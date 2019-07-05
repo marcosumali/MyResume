@@ -8,13 +8,13 @@ import DownButton from '../svg/Down';
 const Place = styled.div`
   color: var(--light-blue);
   font-weight: bold;
-  font-size: 28px;
+  font-size: 22px;
   ${media.large`
-    font-size: 24px;
+    font-size: 20px;
   `}
   ${media.small`
     margin-top: 10px;
-    font-size: 18px;
+    font-size: 12px;
     text-align: center;
   `}
 `
@@ -22,20 +22,20 @@ const Place = styled.div`
 const Time = styled.div`
   color: var(--gray);
   font-weight: bold;
-  font-size: 28px;
+  font-size: 22px;
   ${media.large`
-    font-size: 24px;
+    font-size: 20px;
     color: var(--gray);
     text-align: left;
   `}
   ${media.medium`
-    font-size: 24px;
+    font-size: 20px;
     color: var(--gray);
     text-align: left;
   `}
   ${media.small`
     margin-top: 0px;
-    font-size: 18px;
+    font-size: 12px;
     text-align: center;
   `}
 `
@@ -43,24 +43,24 @@ const Time = styled.div`
 const Title = styled.div`
   color: var(--gray);
   font-weight: bold;
-  font-size: 28px;
-  margin-bottom: 16px;
+  font-size: 22px;
+  margin-bottom: 0px;
   ${media.large`
-    font-size: 24px;
+    font-size: 20px;
   `}
   ${media.medium`
   `}
   ${media.small`
     margin-top: 0px;
     margin-bottom: 0px;
-    font-size: 18px;
+    font-size: 12px;
     text-align: center;
   `}
 `
 
 const Paragraph = styled.div`
   color: var(--black);
-  font-size: 20px;
+  font-size: 18px;
   text-align: justify;
   margin-top: 8px;
   margin-bottom: 16px;
@@ -93,7 +93,7 @@ const BtnGradient = styled.div`
   `}
 `
 const BtnText = styled.div`
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 700;
   text-align: center;
   color: var(--white);
@@ -102,9 +102,9 @@ const BtnText = styled.div`
     font-size: 12px;
   `}
   ${media.small`
+    font-size: 12px;
   `}
 `
-
 
 export default class Awards extends Component {
   constructor() {
