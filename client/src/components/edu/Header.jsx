@@ -7,7 +7,7 @@ import media from '../media/queries';
 const Title = styled.h1`
   color: var(--white);
   text-transform: uppercase;
-  font-size: 120px;
+  font-size: 100px;
   ${media.tablet`
     font-size: 80px;
   `}
