@@ -335,6 +335,51 @@ export default class Experience extends Component {
           </div>
         </div>
 
+        <div className="col s12 Exp-box">
+          <div className="col s12 m3 l4 xl2">
+            <div className="col s12 xl12 Container-nowrap-center Image-box-first">
+              <img className="Exp-image" src={ process.env.PUBLIC_URL + '/assets/svg/pwcLogo.svg' } alt="Experience" />
+            </div>
+          </div>
+          <div className="col s12 m12 l12 xl8">
+            <div className="col m3 l2 Container-nowrap-center">
+              <div className="col s12 xl12 Container-nowrap-center Image-box-second">
+                <img className="Exp-image" src={ process.env.PUBLIC_URL + '/assets/svg/pwcLogo.svg' } alt="Experience" />
+              </div>
+            </div>
+            <div className="col m9 l10 xl12 No-margin No-padding Container-wrap-center-cross">
+              <div className="col s12 l12 xl12">
+                <Place>PwC Indonesia</Place>
+              </div>
+              <div className="col s12 l12 xl12">
+                <Time>July 2012 - October 2017</Time>
+              </div>
+              <div className="col s12 l12 xl12">
+                <Title>Associate - Assistant Manager, Assurance</Title>
+              </div>
+            </div>
+            <div className="col s12 m12 l12 xl12">
+              <Paragraph>Awarded as Exceeding Expectation Employee</Paragraph>
+              <Paragraph>
+                <ol>
+                  <li>Led 20 to 25 staffs and successfully conducting statutory audits by demonstrates sufficient technical skills and considerable knowledge of IFRS and Indonesian Financial Accounting Standards.</li>
+                  <li>Successfully planned and implemented risk-based audit procedures resulted in average increase of engagement margin up to 30% for several projects since 2014.</li>
+                  <li>Experienced in examining significant business combination transactions that requires deep understanding of IFRS 3 and related Indonesian financial accounting standards.</li>
+                  <li>Experienced in developing audit procedures for significant bill and hold transactions that requires deep understanding of IAS 18 and related Indonesian financial accounting standards.</li>
+                </ol>
+              </Paragraph>
+              <Paragraph>Key clients:</Paragraph>
+              <Paragraph>
+                <ol>
+                  <li>PT GlaxoSmithKline Indonesia is a subsidiaries of GSK Global (UK) which is awarded by Forbes as one of world’s 25 biggest drug and biotech companies in 2016.</li>
+                  <li>PT Toyota Astra Motor is a joint venture business between PT Astra International Tbk. and Toyota Motor Corporation. The Company is the distributor for Toyota Motor Vehicle and hold 34.5% (2016) of motor vehicle market share in Indonesia.</li>
+                  <li>PT United Tractors, Tbk (UNTR) is significant subsidiaries of PT Astra International Tbk. and the largest distributor of heavy equipment in Indonesia by holding 40% (2016) of Indonesia's heavy equipment market.</li>
+                </ol>
+              </Paragraph>
+            </div>
+          </div>
+        </div>
+
       </div>
     )
   }
