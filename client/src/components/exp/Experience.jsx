@@ -239,7 +239,7 @@ export default class Experience extends Component {
               </div>
             </div>
             <div className="col s12 m12 l12 xl12">
-              <Paragraph>"Bookinesia is a mobile friendly waiting list web application that is tailored for on-demand service provider businesses' needs to monitor their business in real time and easily connect with their customers."</Paragraph>
+              <Paragraph>"Bookinesia is a two-sided marketplace to manage online waiting list application with mobile friendly interface that is tailored for on-demand service provider businesses' needs to monitor their business in real time and easily connect with their customers."</Paragraph>
               <div className="col s12 No-margin No-padding Container-wrap-center-cross">
                 <a href="https://www.bookinesia.com/" target="_blank" rel="noopener noreferrer" style={{ marginRight: '16px' }}>
                   <BtnGradient>
@@ -251,11 +251,13 @@ export default class Experience extends Component {
                     <BtnText>Visit Store Admin Website</BtnText>
                   </BtnGradient>
                 </a>
-                <BtnBlue>
-                  <Toast options={{html: 'Email: owner.dummyshop.bekasi@example.com; Password: *please type 1 to 8*'}}>
-                    <BtnText>Get Admin Privilege</BtnText>
-                  </Toast>
-                </BtnBlue>
+                <div className="Container-wrap-center-cross">
+                  <BtnBlue>
+                    <Toast options={{html: 'Email: owner.dummyshop.bekasi@example.com; Password: *please type 1 to 8*; Data: To start please check November / March calender dates'}}>
+                      <BtnText>Get Admin Privilege</BtnText>
+                    </Toast>
+                  </BtnBlue>
+                </div>
               </div>
               <ParagraphTitle>Technical</ParagraphTitle>
               <Paragraph>
@@ -294,7 +296,7 @@ export default class Experience extends Component {
             </div>
           </div>
           <div className="col s12 m12 l12 xl12 Second-section">
-            <div className="col s12 m12 l12 xl3 Bookinesia-user-box">
+            <div className="col s12 m12 l4 xl3 Bookinesia-user-box">
               <div className="col s12 No-margin No-padding Speaker-box Container-wrap-center">
                 <div className="Speaker"></div>
               </div>
@@ -312,7 +314,7 @@ export default class Experience extends Component {
                 <div className="Home-circle"></div>
               </div>
             </div>
-            <div className="col s12 m12 l12 xl8 offset-xl1 Bookinesia-admin-box">
+            <div className="col s12 m12 l8 xl8 offset-xl1 Bookinesia-admin-box">
               <div className="col s12 No-margin No-padding Speaker-box Container-wrap-center">
                 <div className="Speaker"></div>
               </div>
