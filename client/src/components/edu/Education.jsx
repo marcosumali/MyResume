@@ -95,7 +95,7 @@ export default class Education extends Component {
                 <Place>Hacktiv8 Indonesia</Place>
               </div>
               <div className="col s12 l7 xl12">
-                <Time>December 2017 - June 2018</Time>
+                <Time>December 2017 - July 2018</Time>
               </div>
               <div className="col s12 l12 xl12">
                 <Title>Fullstack JavaScript Immersive Program</Title>

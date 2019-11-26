@@ -232,7 +232,7 @@ export default class Experience extends Component {
                 <Place>Bookinesia</Place>
               </div>
               <div className="col s12 l12 xl12">
-                <Time>October 2018 - March 2019</Time>
+                <Time>September 2018 - March 2019</Time>
               </div>
               <div className="col s12 l12 xl12">
                 <Title>Project Manager</Title>
