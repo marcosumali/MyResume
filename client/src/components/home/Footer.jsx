@@ -37,20 +37,20 @@ export default class Footer extends Component {
           <FooterTextLeft>
             {
               match.path === "/" ?
-              <a href="#HomeHeader" style={{ color: 'black', textDecoration: 'none' }}>MBB.</a>
+              <a href="#HomeHeader" style={{ color: 'black', textDecoration: 'none' }}>MAS.</a>
               :
               <Link to="/">
-                <div style={{ color: 'black', textDecoration: 'none' }}>MBB.</div>
+                <div style={{ color: 'black', textDecoration: 'none' }}>MAS.</div>
               </Link>
             }
           </FooterTextLeft>
           <div style={{ minWidth: '200px' }}>
-            <FooterTextLeft>© 2019 MadeByBastian.co</FooterTextLeft>
+            <FooterTextLeft>© 2022 marcosumali.com</FooterTextLeft>
           </div>
         </div>
         <div className="col m6 s12 Container-nowrap-end">
           <FooterTextRight>
-            <a href="mailto:support@madebybastian.co" style={{ color: 'black', textDecoration: 'none' }}>Help Center</a>
+            <a href="mailto:marco.sumali90@gmail.com" style={{ color: 'black', textDecoration: 'none' }}>Help Center</a>
           </FooterTextRight>
           <Toast options={{html: 'Free to use !'}}>
             <FooterTextRight>Terms</FooterTextRight>

@@ -127,15 +127,15 @@ export default class Header extends Component {
               </a>
             </div>
             <div className="col s12 No-margin No-padding">
-              <Paragraph>I consider myself as a JavaScript Padawan exploring Social Enterprise with deep interest in Data Science using Python.</Paragraph>
+              <Paragraph>I consider myself as a JavaScript Padawan with experience working as Frontend and Backend Engineer at a Software House in Singapore with interest in Machine Learning.</Paragraph>
             </div>
             <div className="col s12 No-margin No-padding">
-              <Paragraph>I used to be a Certified Public Accounted at a Big Four Accounting firm handling assurance assignments from various multi national companies.</Paragraph>
+              <Paragraph>Fun fact about myself, I used to work as a Certified Public Accountant at a Big Four Accounting firm in Indonesia handling assurance assignments from various multi national companies before I start my Javascript Padawan training.</Paragraph>
             </div>
           </div>
           <a href="https://www.linkedin.com/in/marcosumali/" target="_blank" rel="noopener noreferrer">
             <div className="col l5 m12 s12 Linkedin-mas-box">
-                <img className="Linkedin-mas" src={ process.env.PUBLIC_URL + 'assets/img/linkedin-mas.png' } alt="Linkedin"/>
+              <img className="Linkedin-mas" src={ process.env.PUBLIC_URL + 'assets/img/linkedin-mas.png' } alt="Linkedin"/>
             </div>
           </a>
         </header>

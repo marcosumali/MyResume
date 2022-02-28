@@ -36,6 +36,7 @@
     display: block;
     height: 40px;
     margin-left: 20px;
+    border-radius: 5px;
   }
 }
 
@@ -51,6 +52,7 @@
   .Linkedin-logo {
     display: block;
     height: 40px;
+    border-radius: 5px;
   }
 
   .BtnWhite {
@@ -70,6 +72,7 @@
   .Linkedin-logo {
     display: block;
     height: 40px;
+    border-radius: 5px;
   }
 
   .BtnWhite {
@@ -92,7 +95,7 @@
 
 .Card-image {
   width: 100%;
-  min-height: 250px;
+  max-height: 250px;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -102,14 +105,14 @@
   }
 
   .Card-image {
-    min-height: 200px;
+    max-height: 200px;
   }
   
 }
 
 @media only screen and (max-width: 768px) {
   .Card-image {
-    min-height: 120px;
+    max-height: 120px;
   }
 
   .Section-box {

@@ -29,7 +29,7 @@ export default class NavBar extends Component {
   render() {
     return (
       <div>
-        <Navbar brand={<a href="/">MBB.</a>} alignLinks="right">
+        <Navbar brand={<a href="/">MAS.</a>} alignLinks="right">
           <NavItem href="/experience">
             Experience
           </NavItem>
@@ -51,10 +51,10 @@ export default class NavBar extends Component {
                 <div className="Contact-name">Marco Sumali</div>
               </div>
               <div className="col s12 Container-wrap-center Social-media-box">
-                <a href="https://wa.me/628111777802" target="_blank" rel="noopener noreferrer">
+                <a href={`https://api.whatsapp.com/send/?phone=628111777802&text=Hi%20Marco,%20I%27m%20interested%20to%20connect%20with%20you%20about...`} target="_blank" rel="noopener noreferrer">
                   <WhatsappIcon className="Soc-med-icon Wa-color" color="Icon-color"/>
                 </a>
-                <a href="mailto:support@madebybastian.co" rel="noopener noreferrer">
+                <a href="mailto:marco.sumali90@gmail.com" rel="noopener noreferrer">
                   <EmailIcon className="Soc-med-icon Email-color" color="Icon-color"/>
                 </a>
                 <a href="https://www.linkedin.com/in/marcosumali/" target="_blank" rel="noopener noreferrer">

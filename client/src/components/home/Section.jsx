@@ -24,12 +24,13 @@ const CardTitle = styled.div`
   font-weight: bold;
   color: var(--light-blue);
   line-height: 1.26;
-  margin-top: 20px;
+  margin-top: 12px;
   ${media.tablet`
     font-size: 24px;
     margin-top: 0px;
-  `}
-  ${media.phone`
+    `}
+    ${media.phone`
+    margin-top: 12px;
   `}
 `
 
@@ -85,7 +86,7 @@ export default class Section extends Component {
   render() {
     return (
       <div id="Section" className="row No-margin No-padding Container-wrap-center-cross">
-        <div className="col m12 s12 No-margin No-padding Section-box Container-wrap-center">
+        <div className="col m12 s12 No-margin No-padding Section-box Container-wrap">
           <div className="col m4 s12">
             <Card className="Container-wrap-center">
               <div className="col s12 No-margin No-padding Container-nowrap-center">
@@ -115,7 +116,7 @@ export default class Section extends Component {
                 <CardTitle>Education</CardTitle>
               </div>
               <div className="col s12 No-margin No-padding">
-                <CardText>Check this section out for my previous educational background where I learn various disciplines from accounting and programming.</CardText>
+                <CardText>Check this section out for my educational background where I learn various disciplines from accounting and programming.</CardText>
               </div>
               <div className="col s12 No-margin No-padding">
                 <Link to="/education">
@@ -135,7 +136,7 @@ export default class Section extends Component {
                 <CardTitle>Awards</CardTitle>
               </div>
               <div className="col s12 No-margin No-padding">
-                <CardText>This section is created if you are interested to seek out my performance, awards and certifications  from my previous experiences.</CardText>
+                <CardText>This section consist of information regarding my performance review, achievements, awards and certifications from my past experiences.</CardText>
               </div>
               <div className="col s12 No-margin No-padding">
                 <Link to="/awards">
