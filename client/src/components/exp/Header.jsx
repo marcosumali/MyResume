@@ -18,10 +18,11 @@ const Title = styled.h1`
 
 export default class Header extends Component {
   render() {
+    const expHeaderImageURL = process.env.PUBLIC_URL + 'assets/img/header/experience-min.jpg';
     return (
       <div>
         <div>
-          <header id="ExpHeader" className="row No-margin No-padding">
+          <header id="ExpHeader" className="row No-margin No-padding" style={{backgroundImage: `url(${expHeaderImageURL})`}}>
             <div className="col s12">
               <NavBarCom />
             </div>

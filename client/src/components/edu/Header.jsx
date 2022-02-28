@@ -18,9 +18,10 @@ const Title = styled.h1`
 
 export default class Header extends Component {
   render() {
+    const eduHeaderImageURL = process.env.PUBLIC_URL + 'assets/img/header/education-min.jpg';
     return (
       <div>
-        <header id="EduHeader" className="row No-margin No-padding">
+        <header id="EduHeader" className="row No-margin No-padding" style={{backgroundImage: `url(${eduHeaderImageURL})`}}>
           <div className="col s12">
             <NavBarCom />
           </div>

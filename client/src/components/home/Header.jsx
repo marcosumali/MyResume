@@ -99,9 +99,10 @@ const Paragraph = styled.div`
 
 export default class Header extends Component {
   render() {
+    const homeHeaderImageURL = process.env.PUBLIC_URL + 'assets/img/header/home-min.png';
     return (
       <div>
-        <header id="HomeHeader" className="row No-margin No-padding">
+        <header id="HomeHeader" className="row No-margin No-padding" style={{backgroundImage: `url(${homeHeaderImageURL})`}}>
           <div className="col s12">
             <NavBarCom />
           </div>

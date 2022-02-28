@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 
 import media from '../media/queries1';
-import { Toast } from 'react-materialize';
+// import { Toast } from 'react-materialize';
 
 const Place = styled.div`
   color: var(--light-blue);
@@ -103,23 +103,24 @@ const BtnGradient = styled.div`
   `}
 `
 
-const BtnBlue = styled.div`
-  width: 200px;
-  line-height: 50px;
-  border-radius: 5px;
-  margin: 16px 0px 24px 16px;
-  background: var(--light-blue);
-  text-align: center;
-  ${media.large`
-    display: none;
-  `}
-  ${media.medium`
-    display: none;
-  `}
-  ${media.small`
-    display: none;
-  `}
-`
+// const BtnBlue = styled.div`
+//   width: 200px;
+//   line-height: 50px;
+//   border-radius: 5px;
+//   margin: 16px 0px 24px 16px;
+//   background: var(--light-blue);
+//   text-align: center;
+//   ${media.large`
+//     display: none;
+//   `}
+//   ${media.medium`
+//     display: none;
+//   `}
+//   ${media.small`
+//     display: none;
+//   `}
+// `
+
 const BtnText = styled.div`
   font-size: 16px;
   font-weight: 700;
@@ -162,7 +163,7 @@ export default class Experience extends Component {
             </div>
             <div className="col s12 m12 l12 xl12">
               <Paragraph>"Dishkon is a food saving applications that aims to reduce food waste in Indonesia by helping food vendors in promoting and distributing edible unsold foods at discount directly to consumers. Our application is still under research and development and to accelerate the process, we are in process creating an online community where registered users able to buy promoted foods at discount."</Paragraph>
-              <a href="https://www.dishkon.co/" target="_blank" rel="noopener noreferrer">
+              <a href="https://foodsaver-app.web.app/" target="_blank" rel="noopener noreferrer">
                 <BtnGradient>
                   <BtnText>Visit Website</BtnText>
                 </BtnGradient>
@@ -199,7 +200,7 @@ export default class Experience extends Component {
                 <iframe 
                   title="DishkonProject"
                   className="Dishkon-web"
-                  src="https://www.dishkon.co" 
+                  src="https://foodsaver-app.web.app/" 
                   frameBorder="0" 
                   allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" 
                   allowFullScreen
@@ -241,23 +242,23 @@ export default class Experience extends Component {
             <div className="col s12 m12 l12 xl12">
               <Paragraph>"Bookinesia is a two-sided marketplace to manage online waiting list application with mobile friendly interface that is tailored for on-demand service provider businesses' needs to monitor their business in real time and easily connect with their customers."</Paragraph>
               <div className="col s12 No-margin No-padding Container-wrap-center-cross">
-                <a href="https://www.bookinesia.com/" target="_blank" rel="noopener noreferrer" style={{ marginRight: '16px' }}>
+                <a href="https://bookinesia-com.web.app/" target="_blank" rel="noopener noreferrer" style={{ marginRight: '16px' }}>
                   <BtnGradient>
                     <BtnText>Visit Customer Website</BtnText>
                   </BtnGradient>
                 </a>
-                <a href="https://www.shop.bookinesia.com/" target="_blank" rel="noopener noreferrer">
+                <a href="https://bookinesia-shop.web.app/" target="_blank" rel="noopener noreferrer">
                   <BtnGradient>
                     <BtnText>Visit Store Admin Website</BtnText>
                   </BtnGradient>
                 </a>
-                <div className="Container-wrap-center-cross">
+                {/* <div className="Container-wrap-center-cross">
                   <BtnBlue>
                     <Toast options={{html: 'Email: owner.dummyshop.bekasi@example.com; Password: *please type 1 to 8*; Data: To start please check November / March calender dates'}}>
                       <BtnText>Get Admin Privilege</BtnText>
                     </Toast>
                   </BtnBlue>
-                </div>
+                </div> */}
               </div>
               <ParagraphTitle>Technical</ParagraphTitle>
               <Paragraph>
@@ -304,7 +305,7 @@ export default class Experience extends Component {
                 <iframe 
                   title="BookinesiaProject"
                   className="Bookinesia-user"
-                  src="https://www.bookinesia.com" 
+                  src="https://bookinesia-com.web.app/" 
                   frameBorder="0" 
                   allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" 
                   allowFullScreen
@@ -322,7 +323,7 @@ export default class Experience extends Component {
                 <iframe 
                   title="BookinesiaProject"
                   className="Bookinesia-admin"
-                  src="https://www.shop.bookinesia.com" 
+                  src="https://bookinesia-shop.web.app/" 
                   frameBorder="0" 
                   allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" 
                   allowFullScreen
