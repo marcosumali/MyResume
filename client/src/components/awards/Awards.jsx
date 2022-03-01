@@ -137,7 +137,7 @@ export default class Awards extends Component {
 
   render() {
     return (
-      <div className="row No-margin No-padding">
+      <div className="row No-margin" style={{padding: "2.5% 5%"}}>
         <div 
           className="col s10 offset-s1 m10 offset-m1 l10 offset-l1 xl6 offset-xl3 Aw-box" 
           onClick={ () => this.updateState('showStatus1', this.state.showStatus1) }

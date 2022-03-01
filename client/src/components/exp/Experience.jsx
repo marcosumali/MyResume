@@ -13,7 +13,7 @@ const Place = styled.div`
   `}
   ${media.small`
     margin-top: 10px;
-    font-size: 12px;
+    font-size: 16px;
     text-align: center;
   `}
 `
@@ -82,7 +82,7 @@ const Paragraph = styled.div`
 `
 
 const BtnGradient = styled.div`
-  width: 200px;
+  min-width: 200px;
   line-height: 50px;
   border-radius: 5px;
   margin: 16px 0px 24px 0px;
@@ -138,31 +138,113 @@ export default class Experience extends Component {
   render() {
     return (
       <div className="row No-margin No-padding">
-        <div className="col s12 Exp-box">
+        <div className="col s12" style={{padding: "5% 5% 3.5% 5%"}}>
+          <div className="col s12 m3 l4 xl2">
+            <div className="col s12 xl12 Container-nowrap-center Image-box-first">
+              <img className="Exp-image" src={ process.env.PUBLIC_URL + '/assets/img/govtechLogo.jpg' } alt="Experience" />
+            </div>
+          </div>
+          <div className="col s12 m12 l12 xl8">
+            <div className="col m3 l2 Container-nowrap-center">
+              <div className="col s12 xl12 Container-nowrap-center Image-box-second">
+                <img className="Exp-image" src={ process.env.PUBLIC_URL + '/assets/img/govtechLogo.jpg' } alt="Experience" />
+              </div>
+            </div>
+            <div className="col m9 l10 xl12 No-margin No-padding Container-wrap-center-cross">
+              <div className="col s12 l12 xl12">
+                <Place>Govtech Singapore</Place>
+              </div>
+              <div className="col s12 l12 xl12">
+                <Time>December 2020 - Present</Time>
+              </div>
+              <div className="col s12 l12 xl12">
+                <Title>Backend Engineer</Title>
+              </div>
+            </div>
+            <div className="col s12 m12 l12 xl12">
+              <Paragraph>"The Government Technology Agency is a statutory board of the Government of Singapore, under the Prime Minister's Office, that is responsible for delivery of Goverment Digital Services on building Smart Nation Infrasructure."</Paragraph>
+              <Paragraph>
+                <ol>
+                  <li>Currently on secondment project from 2359 Media Pte Ltd to work as backend engineer at client side.</li>
+                  <li>Assist frontend team on UI development, API integration and bugfixes.</li>
+                </ol>
+              </Paragraph>
+              <Paragraph>Tech Stack:</Paragraph>
+              <Paragraph>ReactJS, Redux, Material UI, Google Dialogflow, NodeJS, ExpressJS, MongoDB, Mongoose, Express Validator, Jira, Confluence etc.</Paragraph>
+            </div>
+          </div>
+        </div>
+
+        <div className="col s12" style={{padding: "3.5% 5% 3.5% 5%"}}>
+          <div className="col s12 m3 l4 xl2">
+            <div className="col s12 xl12 Container-nowrap-center Image-box-first">
+              <img className="Exp-image" src={ process.env.PUBLIC_URL + '/assets/img/2359Logo.jpeg' } alt="Experience" />
+            </div>
+          </div>
+          <div className="col s12 m12 l12 xl8">
+            <div className="col m3 l2 Container-nowrap-center">
+              <div className="col s12 xl12 Container-nowrap-center Image-box-second">
+                <img className="Exp-image" src={ process.env.PUBLIC_URL + '/assets/img/2359Logo.jpeg' } alt="Experience" />
+              </div>
+            </div>
+            <div className="col m9 l10 xl12 No-margin No-padding Container-wrap-center-cross">
+              <div className="col s12 l12 xl12">
+                <Place>2359 Media Pte Ltd</Place>
+              </div>
+              <div className="col s12 l12 xl12">
+                <Time>January 2020 - Present</Time>
+              </div>
+              <div className="col s12 l12 xl12">
+                <Title>Frontend Engineer</Title>
+              </div>
+            </div>
+            <div className="col s12 m12 l12 xl12">
+              <Paragraph>"2359 Media is an award-winning mobile app development company that aims to become the pioneer and paragon of the mobile marketing industry by helping brands increase presence and influence through effective and innovative mobility solutions. The Company has offices in Singapore, Indonesia and Vietnam at the moment."</Paragraph>
+              <Paragraph>
+                <ol>
+                  <li>Develop products by converting our sweet design into a functioning web application with efficient and readable codes.</li>
+                  <li>Identify and fix bugs on our frontend codes</li>
+                  <li>Experienced working as product engineer to develop chat bot and voice bot.</li>
+                  <li>Experienced in setting up CI/CD for automatic deployment from Github.</li>
+                  <li>Experienced in developing frontend codes using modern web framework with minimum supervision.</li>
+                  <li>Experienced working as PIC on the frontend team and provide feedbacks to Project Manager.</li>
+                  <li>Experienced in development cycle of two week sprint using Jira.</li>
+                  <li>Experienced in running manual QA tests and communicate it to the team.</li>
+                </ol>
+              </Paragraph>
+              <Paragraph>Tech Stack:</Paragraph>
+              <Paragraph>ReactJS, VueJS, SvelteJS, Redux with Sagas, Material UI, React Toolbox, React Calendar, React Flow, Google Dialogflow, Amazon S3, Amazon Pipeline, Amazon CodeBuild, Google Interactive Canvas, Websocket, Jira, Confluence etc.</Paragraph>
+            </div>
+          </div>
+        </div>
+
+        <div className="col s12" style={{padding: "3.5% 5% 0px 5%"}}>
+          <div className="col s12 xl10 offset-xl2 Personal-box">
+            <div className="col s12 l12 xl12">
+              <Place>Personal Project</Place>
+            </div>
+            <div className="col s12 l12 xl12">
+              <Time>September 2018 - April 2019</Time>
+            </div>
+          </div>
           <div className="col s12 m3 l4 xl2">
             <div className="col s12 xl12 Container-nowrap-center Image-box-first">
               <img className="Exp-image" src={ process.env.PUBLIC_URL + '/assets/img/dishkonLogo.png' } alt="Experience" />
             </div>
           </div>
           <div className="col s12 m12 l12 xl4">
-            <div className="col m3 l2 Container-nowrap-center">
+            <div className="col s12 m3 l2 Container-nowrap-center">
               <div className="col s12 xl12 Container-nowrap-center Image-box-second">
                 <img className="Exp-image" src={ process.env.PUBLIC_URL + '/assets/img/dishkonLogo.png' } alt="Experience" />
               </div>
             </div>
-            <div className="col m9 l10 xl12 No-margin No-padding Container-wrap-center-cross">
+            <div className="col s12 m12 l10 xl12 No-margin No-padding Container-wrap-center-cross">
               <div className="col s12 l12 xl12">
                 <Place>Dishkon Indonesia</Place>
               </div>
-              <div className="col s12 l12 xl12">
-                <Time>April 2019 - Present</Time>
-              </div>
-              <div className="col s12 l12 xl12">
-                <Title>Project Manager</Title>
-              </div>
             </div>
             <div className="col s12 m12 l12 xl12">
-              <Paragraph>"Dishkon is a food saving applications that aims to reduce food waste in Indonesia by helping food vendors in promoting and distributing edible unsold foods at discount directly to consumers. Our application is still under research and development and to accelerate the process, we are in process creating an online community where registered users able to buy promoted foods at discount."</Paragraph>
+              <Paragraph>"Dishkon is a food saving concept that aims to reduce food waste in Jakarta by helping businesses to promote edible unsold foods at discount. At the end of the project, we are in process creating an online community where registered users able to buy promoted foods at discount."</Paragraph>
               <a href="https://foodsaver-app.web.app/" target="_blank" rel="noopener noreferrer">
                 <BtnGradient>
                   <BtnText>Visit Website</BtnText>
@@ -171,7 +253,6 @@ export default class Experience extends Component {
               <ParagraphTitle>Business</ParagraphTitle>
               <Paragraph>
                 <ol>
-                  <li>Responsible in acquiring potential users and food vendors as our customers to build the initial MVP.</li>
                   <li>Acquired 750++ users during first month pre-registration on the website and convince 20% of them to register themselves as part of our Food Avengers team who will be first buyers on our initial MVP.</li>
                 </ol>
               </Paragraph>
@@ -210,37 +291,31 @@ export default class Experience extends Component {
                 <div className="Home-circle"></div>
               </div>
             </div>
-            <div className="col s12 Second-section-info-box">
+            {/* <div className="col s12 Second-section-info-box">
               <div className="Second-section-info">Please use laptop or desktop devices to enjoy the full experience of trying out the applications directly on this website.</div>
-            </div>
+            </div> */}
           </div>
         </div>
 
-        <div className="col s12 Exp-box">
+        <div className="col s12" style={{padding: "3.5% 5% 5% 3.5%"}}>
           <div className="col s12 m3 l4 xl2">
             <div className="col s12 xl12 Container-nowrap-center Image-box-first">
               <img className="Exp-image" src={ process.env.PUBLIC_URL + '/assets/img/bookinesiaLogo.png' } alt="Experience" />
             </div>
           </div>
           <div className="col s12 m12 l12 xl8">
-            <div className="col m3 l2 Container-nowrap-center">
+            <div className="col s12 m3 l2 Container-nowrap-center">
               <div className="col s12 xl12 Container-nowrap-center Image-box-second">
                 <img className="Exp-image" src={ process.env.PUBLIC_URL + '/assets/img/bookinesiaLogo.png' } alt="Experience" />
               </div>
             </div>
-            <div className="col m9 l10 xl12 No-margin No-padding Container-wrap-center-cross">
+            <div className="col s12 m12 l10 xl12 No-margin No-padding Container-wrap-center-cross">
               <div className="col s12 l12 xl12">
                 <Place>Bookinesia</Place>
               </div>
-              <div className="col s12 l12 xl12">
-                <Time>September 2018 - March 2019</Time>
-              </div>
-              <div className="col s12 l12 xl12">
-                <Title>Project Manager</Title>
-              </div>
             </div>
             <div className="col s12 m12 l12 xl12">
-              <Paragraph>"Bookinesia is a two-sided marketplace to manage online waiting list application with mobile friendly interface that is tailored for on-demand service provider businesses' needs to monitor their business in real time and easily connect with their customers."</Paragraph>
+              <Paragraph>"Bookinesia is a waiting list apps to help service businesses manage and monitor their daily operation in real time and easily connect with their customers. At the end of project, we were able to build a functioning prototpye but we weren't able to get traction from businesses."</Paragraph>
               <div className="col s12 No-margin No-padding Container-wrap-center-cross">
                 <a href="https://bookinesia-com.web.app/" target="_blank" rel="noopener noreferrer" style={{ marginRight: '16px' }}>
                   <BtnGradient>
@@ -264,17 +339,17 @@ export default class Experience extends Component {
               <Paragraph>
                 <ol>
                   <li>Build the server-less MVP for two-sided marketplace from scratch up to v0.3 in 14 weeks including develop the user interface for customer and the admin panel for store management with secured authentications.</li>
-                  <ul className="browser-default">
-                    <li>v0.0: MVP where customer can book a transaction and admin can monitor the transactions including user authentications.</li>
-                    <li>v0.1: Improvement over server security rules and user authentications of the MVP.</li>
-                    <li>v0.2: Refining and refactoring the layout for better mobile user experience for both customer and admin websites and add new features for updating store information.</li>
-                    <li>v0.3: Build segregation of duties on admin website where each user have specific privilege based on their job description and add new feature of multiple branch monitor per accounts.</li>
-                  </ul>
+                    <ul className="browser-default">
+                      <li>v0.0: MVP where customer can book a transaction and admin can monitor the transactions including user authentications.</li>
+                      <li>v0.1: Improvement over server security rules, user authentications and admin page of the MVP.</li>
+                      <li>v0.2: Refining and refactoring the layout for better mobile user experience for both customer and admin websites and add new features for updating store information.</li>
+                      <li>v0.3: Build segregation of duties on admin website where each user have specific privilege based on their job description and add new feature of multiple branch monitor per accounts.</li>
+                    </ul>
                   <li>Integrate multiple framework and packages in developing the MVP:</li>
-                  <ul className="browser-default">
-                    <li>Front-end: React JS, Redux, Materialize UI, Google Library, Firebase Hosting</li>
-                    <li>Back-end: Google Cloud Firestore, Firestore Security Rules, Google Cloud Functions, Firebase Storage, Firebase Authentication, Google Maps, Sendgrid</li>
-                  </ul>
+                    <ul className="browser-default">
+                      <li>Front-end: React JS, Redux, Materialize UI, Google Library, Firebase Hosting</li>
+                      <li>Back-end: Google Cloud Firestore, Firestore Security Rules, Google Cloud Functions, Firebase Storage, Firebase Authentication, Google Maps, Sendgrid</li>
+                    </ul>
                 </ol>
               </Paragraph>
               <ParagraphTitle>Design</ParagraphTitle>
@@ -296,7 +371,7 @@ export default class Experience extends Component {
               </Paragraph>
             </div>
           </div>
-          <div className="col s12 m12 l12 xl12 Second-section">
+          <div className="col s12 m12 l12 xl12 Second-section" style={{marginTop: "3.5%"}}>
             <div className="col s12 m12 l4 xl3 Bookinesia-user-box">
               <div className="col s12 No-margin No-padding Speaker-box Container-wrap-center">
                 <div className="Speaker"></div>
@@ -333,9 +408,9 @@ export default class Experience extends Component {
                 <div className="Home-circle"></div>
               </div>
             </div>
-            <div className="col s12 Second-section-info-box">
+            {/* <div className="col s12 Second-section-info-box">
               <div className="Second-section-info">Please use laptop or desktop devices to enjoy the full experience of trying out the applications directly on this website.</div>
-            </div>
+            </div> */}
           </div>
         </div>
 

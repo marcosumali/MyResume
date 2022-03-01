@@ -95,7 +95,7 @@
 
 .Card-image {
   width: 100%;
-  max-height: 250px;
+  height: 10vw;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -105,14 +105,14 @@
   }
 
   .Card-image {
-    max-height: 200px;
+    height: 200px;
   }
   
 }
 
 @media only screen and (max-width: 768px) {
   .Card-image {
-    max-height: 120px;
+    height: 120px;
   }
 
   .Section-box {

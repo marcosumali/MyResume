@@ -12,7 +12,7 @@ const Place = styled.div`
   `}
   ${media.small`
     margin-top: 10px;
-    font-size: 12px;
+    font-size: 16px;
     text-align: center;
   `}
 `
@@ -33,7 +33,7 @@ const Time = styled.div`
   `}
   ${media.small`
     margin-top: 0px;
-    font-size: 12px;
+    font-size: 14px;
     text-align: center;
   `}
 `
@@ -50,7 +50,7 @@ const Title = styled.div`
   `}
   ${media.small`
     margin-top: 0px;
-    font-size: 12px;
+    font-size: 14px;
     text-align: center;
   `}
 `

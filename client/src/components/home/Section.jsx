@@ -136,7 +136,7 @@ export default class Section extends Component {
                 <CardTitle>Awards</CardTitle>
               </div>
               <div className="col s12 No-margin No-padding">
-                <CardText>This section consist of information regarding my performance review, achievements, awards and certifications from my past experiences.</CardText>
+                <CardText>This section consist of information regarding my achievements, awards and certifications from my past experiences.</CardText>
               </div>
               <div className="col s12 No-margin No-padding">
                 <Link to="/awards">
